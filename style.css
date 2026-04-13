@@ -42,7 +42,7 @@ header {
 /* ----breakpoint 1 — 576px---- */
 @media (min-width: 576px) {
 
-    /* Change 1: Show a 'Back to Top' link only at this breakpoint */
+    /*  Show a 'Back to Top' link only at this breakpoint */
     .back-to-top {
         display: block;
         text-align: center;
@@ -50,19 +50,19 @@ header {
         font-weight: bold;
     }
 
-    /* Change 2: Reposition nav lower */
+    /*  Reposition nav lower */
     nav {
         display: block;
         margin-top: 15px;
     }
 
-    /* Change 3: Center sections and limit width */
+    /*  Center sections and limit width */
     section {
         width: 95%;
         margin: 0 auto;
     }
 
-    /* Change 4: Nav buttons */
+    /*  Nav buttons */
     nav a {
         display: inline-block;
         padding: 8px 12px;
@@ -71,7 +71,7 @@ header {
         border: 1px solid #000;
     }
 
-    /* Optional: image shrink */
+    /*  image shrink */
     section img {
         width: 85%;
         margin: 0 auto;
@@ -81,14 +81,14 @@ header {
 /* ----breakpoint 2 — 720px---- */
 @media (min-width: 720px) {
 
-    /* Change 5: Float images left */
+    /*  Float images left */
     section img {
         float: left;
         width: 40%;
         margin-right: 15px;
     }
 
-    /* Change 6: Boxed layout */
+    /*  Boxed layout */
     section {
         width: 80%;
         margin: 20px auto;
@@ -101,7 +101,7 @@ header {
 /* ----breakpoint 3 — 992px---- */
 @media (min-width: 992px) {
 
-    /* Change 8: Two-column layout */
+    /* two-column layout */
     section {
         width: 45%;
         float: left;
@@ -111,7 +111,7 @@ header {
         background: #fafafa;
     }
 
-    /* Change 9: Desktop nav bar */
+    /*  Desktop nav bar */
     nav {
         background: #fff;
         padding: 10px;
@@ -120,7 +120,7 @@ header {
         box-shadow: 0 3px 6px rgba(0,0,0,0.3);
     }
 
-    /* Change 10: Add spacing between columns */
+    /* Add spacing between columns */
     body {
         padding-top: 10px;
     }
