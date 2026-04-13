@@ -1,0 +1,127 @@
+/* ---- Mobile ----*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #f4d742;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+section img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Sticky Navigation Bar */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #f4d742;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+/* ----breakpoint 1 — 576px---- */
+@media (min-width: 576px) {
+
+    /* Change 1: Show a 'Back to Top' link only at this breakpoint */
+    .back-to-top {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    /* Change 2: Reposition nav lower */
+    nav {
+        display: block;
+        margin-top: 15px;
+    }
+
+    /* Change 3: Center sections and limit width */
+    section {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* Change 4: Nav buttons */
+    nav a {
+        display: inline-block;
+        padding: 8px 12px;
+        background: #fff;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+
+    /* Optional: image shrink */
+    section img {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+
+/* ----breakpoint 2 — 720px---- */
+@media (min-width: 720px) {
+
+    /* Change 5: Float images left */
+    section img {
+        float: left;
+        width: 40%;
+        margin-right: 15px;
+    }
+
+    /* Change 6: Boxed layout */
+    section {
+        width: 80%;
+        margin: 20px auto;
+        background-color: #fff8c2;
+        border-radius: 8px;
+        padding: 15px;
+    }
+}
+
+/* ----breakpoint 3 — 992px---- */
+@media (min-width: 992px) {
+
+    /* Change 8: Two-column layout */
+    section {
+        width: 45%;
+        float: left;
+        margin: 2%;
+        border: 1px solid #aaa;
+        padding: 20px;
+        background: #fafafa;
+    }
+
+    /* Change 9: Desktop nav bar */
+    nav {
+        background: #fff;
+        padding: 10px;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+    /* Change 10: Add spacing between columns */
+    body {
+        padding-top: 10px;
+    }
+}
